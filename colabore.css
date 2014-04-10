@@ -1,0 +1,113 @@
+
+.site-wrapper{
+  height: 100%;
+  width: 100%;
+  /*box-shadow: inset 0 0 100px 30px rgba(0,0,0,.5);*/
+}
+
+
+
+/*
+.logo{
+  background-image: url("../images/CN.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 450px;
+  height: 450px;
+}
+*/
+
+
+
+/*
+.CN{
+  -webkit-transform: scale();
+}*/
+
+/* Begin of the first big div*/
+
+.jumbotron{
+  background-color: transparent;
+}
+
+.cover-container{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 24px 150px 74px;
+}
+
+.inner-cover{
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette{
+  text-align: left;
+}
+.featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-image {
+  width: 75%;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 768px) {
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+/** OUR CHANGES ***************************************************/
+li{
+  font-size: 150%;  
+}
+
+/* body { */
+    /* background-color: white; */
+/* } */
+
+.fiturete-container{
+  margin: 0 10%;
+  /* background-color: white; */
+}
+
+.separator{
+  margin: 10px 0px;
+  border-top: 2px dashed #a22;
+}
+
+.col-md-5{
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    float: right;
+}
+
+#diamond {
+    background-image: url("images/Fractal_Diamond.png");
+}
+
+#gold {
+    background-image: url("images/Graph_Gold.png");
+}
+
+#silver {
+    background-image: url("images/Asm_Silver.png");
+}
+
+#cupper {
+    background-image: url("images/Circuits_Cupper.png");
+}

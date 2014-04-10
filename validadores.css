@@ -1,0 +1,17 @@
+/* Com base em http://www.html5rocks.com/en/tutorials/forms/constraintvalidation/ */
+
+.visitado:valid
+{
+  border: 1px solid #282;
+  background: url(../images/ok.png);
+  background-repeat: no-repeat;
+  background-position: 99% 50%;
+}
+
+.visitado:invalid
+{
+  border: 1px solid #D22;
+  background: url(../images/error.png);
+  background-repeat: no-repeat;
+  background-position: 99% 50%;
+}
