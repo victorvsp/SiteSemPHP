@@ -6,7 +6,18 @@
 }
 
 
-
+.text-muted5{
+  color: #C22;
+}
+.text-muted2{
+  color: #FFCC00;
+}
+.text-muted3{
+  color: #787878;
+}
+.text-muted4{
+  color: #CC9933;
+}
 /*
 .logo{
   background-image: url("../images/CN.png");
@@ -29,7 +40,9 @@
 .jumbotron{
   background-color: transparent;
 }
-
+.text-muted{
+  color: #C22;
+}
 .cover-container{
   margin-right: auto;
   margin-left: auto;
@@ -66,8 +79,10 @@
 @media (min-width: 768px) {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    
   }
 }
+
 
 /** OUR CHANGES ***************************************************/
 li{
