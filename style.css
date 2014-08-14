@@ -435,31 +435,36 @@ nav #nav-main #logo img {
 }
 /* Footer */
 footer {
-  height: 140px;
   width: 100%;
   border-top: 5px solid #df3040;
   position: relative;
 }
-#foot_cont {
+footer #foot_cont {
   width: 90%;
   margin: auto;
 }
-#patrocinadores {
-  width: 75%;
+footer h2 {
   float: left;
-}
-#patrocinadores h3 {
-  float: left;
-  height: 140px;
-  line-height: 140px;
+  display: block;
   color: #df3040;
-  margin-right: 30px;
+  line-height: 140px;
+  width: 15%;
+  margin: 0;
 }
-#patrocinadores ul {
+footer #patrocinadores {
+  width: 60%;
+  float: left;
+}
+footer #patrocinadores ul {
+  display: block;
   margin-top: 20px;
   margin-bottom: 0px;
+  width: 80%;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
 }
-#patrocinadores ul li {
+footer #patrocinadores ul li {
   height: 50px;
   float: left;
   line-height: 70px;
@@ -467,21 +472,34 @@ footer {
   color: #df3040;
   margin-right: 20px;
 }
-#patrocinadores ul li a {
-  display: block;
-  width: 80%;
-}
-#patrocinadores ul li a img {
+footer #patrocinadores ul li a img {
   height: 30px;
 }
-#patrocinadores ul li .half {
-  width: 60%;
+footer #localizacao {
+  width: 25%;
+  float: left;
+  margin-top: 35px;
 }
-#patrocinadores ul.lista-gold-silver {
-  margin-top: 60px;
+footer #localizacao span {
+  line-height: 70px;
+  font-size: 0.9em;
+  color: #df3040;
 }
-#patrocinadores ul.lista-gold-silver img {
-  height: 25px;
+footer #localizacao .ico {
+  height: 30px;
+  line-height: 70px;
+  margin-top: 20px;
+}
+footer #localizacao .face {
+  padding-right: 20px;
+  border-right: 1px solid #df3040;
+}
+footer #localizacao .chegar {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+footer #localizacao .lado {
+  float: right;
 }
 /*Sprites Patrocinadores*/
 /*
@@ -521,32 +539,6 @@ footer {
 }
 
 */
-#localizacao {
-  width: 25%;
-  float: right;
-  margin-top: 35px;
-}
-#localizacao span {
-  line-height: 70px;
-  font-size: 0.9em;
-  color: #df3040;
-}
-#localizacao .ico {
-  height: 30px;
-  line-height: 70px;
-  margin-top: 20px;
-}
-#localizacao .face {
-  padding-right: 20px;
-  border-right: 1px solid #df3040;
-}
-#localizacao .chegar {
-  padding-left: 15px;
-  padding-right: 10px;
-}
-#localizacao .lado {
-  float: right;
-}
 /* MAPS */
 #map_canvas {
   width: 100%;
