@@ -443,23 +443,24 @@ footer #foot_cont {
   width: 90%;
   margin: auto;
 }
-footer h2 {
+footer h3 {
   float: left;
   display: block;
   color: #df3040;
-  line-height: 140px;
-  width: 15%;
+  line-height: 170px;
+  width: 10%;
   margin: 0;
 }
 footer #patrocinadores {
-  width: 60%;
+  width: 65%;
   float: left;
+  margin-left: 20px;
 }
 footer #patrocinadores ul {
   display: block;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
-  width: 80%;
+  width: 85%;
   margin-left: 0;
   margin-right: 0;
   overflow: hidden;
@@ -473,12 +474,24 @@ footer #patrocinadores ul li {
   margin-right: 20px;
 }
 footer #patrocinadores ul li a img {
-  height: 30px;
+  height: 28px;
+}
+footer #patrocinadores .prata a img {
+  height: 22px;
+}
+footer #patrocinadores .bronze {
+  margin-bottom: 20px;
+}
+footer #patrocinadores .bronze a img {
+  height: 20px;
+}
+footer #patrocinadores:first-of-type {
+  margin-top: 20px;
 }
 footer #localizacao {
-  width: 25%;
+  width: 20%;
   float: left;
-  margin-top: 35px;
+  margin-top: 55px;
 }
 footer #localizacao span {
   line-height: 70px;
