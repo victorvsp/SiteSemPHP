@@ -416,6 +416,14 @@ nav #nav-main #logo img {
 .contato .botaozinho .botao2 {
   bottom: 10px;
 }
+.contato .botao3 {
+  width: 240px;
+  top: 0px;
+  right: 50px;
+}
+.contato .botao3 div {
+  width: 100%;
+}
 .contato p {
   width: 60%;
 }
@@ -478,13 +486,13 @@ footer #patrocinadores ul li a img {
   height: 28px;
 }
 footer #patrocinadores .prata a img {
-  height: 22px;
+  height: 26px;
 }
 footer #patrocinadores .bronze {
   margin-bottom: 20px;
 }
 footer #patrocinadores .bronze a img {
-  height: 20px;
+  height: 24px;
 }
 footer #patrocinadores:first-of-type {
   margin-top: 20px;
