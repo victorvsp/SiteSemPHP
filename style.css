@@ -133,6 +133,7 @@ body {
 /* Icones */
 .the-icons {
   color: #df3040;
+  margin-bottom: 100px;
 }
 /*Definições Para Header */
 header {
@@ -361,7 +362,7 @@ nav #nav-main #logo img {
 /*Página Colabore */
 .barras {
   margin-top: 50px;
-  height: 260px;
+  min-height: 260px;
   width: 100%;
   border-bottom: 1px solid #df3040;
 }
@@ -721,4 +722,11 @@ article h2 {
 }
 #linkPat:hover {
   -webkit-filter: grayscale(50%);
+}
+.jaba {
+  border: 1px solid #df3040;
+  margin-left: 20%;
+  margin-bottom: 10px;
+  width: 80%;
+  padding: 20px;
 }
