@@ -271,6 +271,7 @@ nav #nav-main #logo img {
 #conteudo .boxes .center {
   border-right: 1px solid #df3040;
   border-left: 1px solid #df3040;
+  width: 32%;
 }
 #conteudo #keyspeakers div.primeiro {
   border-top: 0px solid #df3040;
