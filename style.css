@@ -306,7 +306,7 @@ nav #nav-main #logo img {
   margin-bottom: 50px;
 }
 #conteudo #palestrantes_nacionais .box {
-  height: 400px;
+  min-height: 400px;
   margin-bottom: 20px;
 }
 #conteudo #palestrantes_nacionais .b_content p {
