@@ -483,6 +483,15 @@ footer h3 {
   width: 10%;
   margin: 0;
 }
+footer h3 a {
+  text-decoration: none;
+}
+footer h3 a:hover {
+  text-decoration: underline;
+}
+footer h3 a:visited {
+  color: #df3040;
+}
 footer #ap {
   margin-top: 90px;
   margin-left: -120px;
