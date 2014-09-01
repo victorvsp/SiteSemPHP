@@ -473,6 +473,7 @@ footer {
 footer #foot_cont {
   width: 90%;
   margin: auto;
+  margin-top: 20px;
 }
 footer h3 {
   float: left;
@@ -482,8 +483,12 @@ footer h3 {
   width: 10%;
   margin: 0;
 }
+footer #ap {
+  margin-top: 90px;
+  margin-left: -120px;
+}
 footer #patrocinadores {
-  width: 65%;
+  width: 75%;
   float: left;
   margin-left: 20px;
 }
@@ -491,7 +496,6 @@ footer #patrocinadores ul {
   display: block;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 85%;
   margin-left: 0;
   margin-right: 0;
   overflow: hidden;
@@ -507,22 +511,46 @@ footer #patrocinadores ul li {
 footer #patrocinadores ul li a img {
   height: 28px;
 }
-footer #patrocinadores .prata a img {
+footer .prata a img {
   height: 26px;
 }
-footer #patrocinadores .bronze {
+footer .bronze {
   margin-bottom: 20px;
 }
-footer #patrocinadores .bronze a img {
+footer .bronze a img {
   height: 24px;
 }
-footer #patrocinadores:first-of-type {
+footer:first-of-type {
   margin-top: 20px;
+}
+footer #apoio {
+  width: 65%;
+  float: left;
+  margin-left: 20px;
+}
+footer #apoio ul {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+}
+footer #apoio ul li {
+  height: 50px;
+  float: left;
+  line-height: 70px;
+  font-size: 0.9em;
+  color: #df3040;
+  margin-right: 20px;
+}
+footer #apoio ul li a img {
+  height: 20px;
 }
 footer #localizacao {
   width: 20%;
   float: left;
-  margin-top: 55px;
+  top: -40px;
 }
 footer #localizacao span {
   line-height: 70px;
@@ -614,6 +642,7 @@ article h2 {
   text-align: center;
   background-color: #df3040;
   line-height: 40px;
+  cursor: pointer;
   color: white;
 }
 .lista-tabs li .tab-botao {
@@ -757,4 +786,75 @@ article h2 {
   margin-bottom: 10px;
   width: 80%;
   padding: 20px;
+}
+.patr {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.patr img {
+  float: left;
+  margin: 20px;
+}
+.patr ul {
+  border-top: 1px solid #df3040;
+  clear: both;
+}
+.patr {
+  width: 100%;
+}
+.patr #patrocinadores_pag {
+  width: 100%;
+  float: left;
+}
+.patr #patrocinadores_pag ul {
+  display: block;
+  height: 220px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.patr #patrocinadores_pag ul li {
+  height: 50px;
+  float: left;
+  line-height: 70px;
+  font-size: 0.9em;
+  color: #df3040;
+  margin-bottom: 30px;
+}
+.patr #patrocinadores_pag ul li a img {
+  height: 50px;
+}
+.patr #patrocinadores_pag .prata {
+  height: 170px;
+}
+.patr #patrocinadores_pag .bronze {
+  height: 170px;
+}
+.patr #apoio_pag {
+  width: 100%;
+  float: left;
+}
+.patr #apoio_pag ul {
+  display: block;
+  height: 220px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.patr #apoio_pag ul li {
+  height: 50px;
+  float: left;
+  line-height: 70px;
+  font-size: 0.9em;
+  color: #df3040;
+  margin-bottom: 30px;
+}
+.patr #apoio_pag ul li a img {
+  height: 40px;
 }
