@@ -190,10 +190,10 @@ nav #nav-main li .direita {
   float: right;
 }
 nav #nav-main #logo {
-  padding-top: 10px;
+  margin-top: -40px;
 }
 nav #nav-main #logo img {
-  width: 170px;
+  width: 225px;
 }
 /* Slideshow (Carrossel)*/
 #slideshow {
