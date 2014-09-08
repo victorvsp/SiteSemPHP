@@ -556,6 +556,9 @@ footer #apoio ul li {
 footer #apoio ul li a img {
   height: 20px;
 }
+footer #apoio ul li.imejr img {
+  height: 25px;
+}
 footer #localizacao {
   width: 20%;
   float: left;
@@ -866,6 +869,9 @@ article h2 {
 }
 .patr #apoio_pag ul li a img {
   height: 40px;
+}
+.patr #apoio_pag ul li.imejr a img {
+  height: 60px;
 }
 #on li {
   background: #a62430;
